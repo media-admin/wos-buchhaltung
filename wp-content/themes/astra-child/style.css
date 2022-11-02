@@ -386,6 +386,26 @@ html {
 
 
 
+/* === CONTENT === */
+
+/* --- List Styles --- */
+
+.site-content ul {
+	list-style: none;
+	margin-left: -0.5rem;
+}
+
+.site-content ul li:before {
+	font-family: 'FontAwesome Solid' !important;
+	content: '\f00c';
+	line-height: 1.6rem !important;
+	color: #ec8b32 !important;
+	margin: 0.0rem 0.5rem 0.0rem 0.5rem;
+}
+
+
+
+
 
 
 /* === SIDEBAR === */
@@ -433,6 +453,26 @@ html {
 	font-weight: 900;
 	text-transform: uppercase;
 	color: #ec8b32 !important;
+}
+
+
+
+
+/* === HEADER === */
+
+.ast-site-title-wrap {
+	display: none;
+}
+
+
+header .custom-logo-link img {
+	width: 80%;
+}
+
+@media only screen and (min-width: 600px) {
+	header .custom-logo-link img {
+		width: 80%;
+	}
 }
 
 
